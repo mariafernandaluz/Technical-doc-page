@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#main-doc {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins";
+}
+
+#navbar {
+position: fixed;
+width: 300px;
+height: 100%;
+background-color: gray;
+text-align: center;
+border-radius: 1rem;
+}
+
+#technical-text {
+width: 75%;
+background-color: white;
+margin-left: 320px;
+}
+
+header {
+font-weight: bold;
+font-size: 22px;
+}
+
+code {
+width: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+.nav-link {
+  margin-top: 10px;
+  margin-botton: 10px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #lorem_ipsum_code {
+    display: none;
+  }
+}
